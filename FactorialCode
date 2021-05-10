@@ -1,0 +1,11 @@
+factorial = function(num){
+    X=1
+    Y=seq(1,num,1)
+    for (val in Y)
+        {
+        X=X*val
+    }
+    return(X)
+}
+
+factorial(5)
